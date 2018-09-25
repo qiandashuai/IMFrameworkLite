@@ -1,0 +1,6 @@
+use_frameworks!
+target 'IMFrameworkLite_Tests' do
+  pod 'IMFrameworkLite', :path => '../'
+  
+  
+end
