@@ -23,14 +23,19 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/1055263815@qq.com/IMFrameworkLite'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1055263815@qq.com' => 'baofeng.qian@maitao.com' }
-  s.source           = { :git => 'https://github.com/1055263815@qq.com/IMFrameworkLite.git', :tag => s.version.to_s }
+  s.source           = { :http => "http://106.14.40.117/h5release/ios-binary-release/IMFrameworkLite.zip" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.vendored_frameworks = 'IMFrameworkLite/*.framework'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'IMFrameworkLite/Classes/**/*'
+   s.requires_arc = true
   
   # s.resource_bundles = {
   #   'IMFrameworkLite' => ['IMFrameworkLite/Assets/*.png']

@@ -1,0 +1,22 @@
+{
+  "name": "IMFrameworkLite",
+  "version": "0.1.0",
+  "summary": "A short description of IMFrameworkLite.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1055263815@qq.com/IMFrameworkLite",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1055263815@qq.com": "baofeng.qian@maitao.com"
+  },
+  "source": {
+    "git": "https://github.com/1055263815@qq.com/IMFrameworkLite.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IMFrameworkLite/Classes/**/*"
+}

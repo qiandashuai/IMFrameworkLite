@@ -1,0 +1,6 @@
+framework module Pods_IMFrameworkLite_Tests {
+  umbrella header "Pods-IMFrameworkLite_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

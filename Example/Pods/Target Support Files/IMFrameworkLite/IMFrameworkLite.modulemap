@@ -1,0 +1,6 @@
+framework module IMFrameworkLite {
+  umbrella header "IMFrameworkLite-umbrella.h"
+
+  export *
+  module * { export * }
+}

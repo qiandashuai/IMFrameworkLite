@@ -1,0 +1,16 @@
+PODS:
+  - IMFrameworkLite (0.1.0)
+
+DEPENDENCIES:
+  - IMFrameworkLite (from `../`)
+
+EXTERNAL SOURCES:
+  IMFrameworkLite:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IMFrameworkLite: dd94f57adc39bf14972414663bd355a7a0fa0426
+
+PODFILE CHECKSUM: 0ae4af2c2ec67389e8912b89ad6c90888a454123
+
+COCOAPODS: 1.5.3
